@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { FileUploadComponent } from './file-upload/file-upload.component';
+import { TransactionComponent } from './transaction/transaction.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FileUploadComponent } from './file-upload/file-upload.component';
     
     
          
-         FileUploadComponent
+         FileUploadComponent,
+                             TransactionComponent
   ],
   imports: [
     BrowserModule,

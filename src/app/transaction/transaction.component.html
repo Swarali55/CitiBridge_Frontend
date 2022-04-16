@@ -1,0 +1,14 @@
+<p>transaction works!</p>
+<table>
+    <tr *ngFor="let t of transaction">
+        <td>{{ t.transactionRefNo }}</td>
+        <td>{{ t.valueDate }}</td>
+        <td>{{ t.payerName }}</td>
+        <td>{{ t.payerAccountNumber }}</td>
+        <td>{{ t.payeeName }}</td>
+        <td>{{ t.payeeAccountNumber }}</td>
+        <td>{{ t.amount }}</td>
+        <td>{{ t.sanctioningStatus }}</td>
+        <td>{{ t.validationStatus }}</td>
+    </tr>
+</table>
